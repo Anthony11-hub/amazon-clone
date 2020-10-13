@@ -1,0 +1,20 @@
+.home {
+  max-width: 1500px;
+  margin: 0px auto;
+  font-size: 1.6vw;
+}
+
+.home_row {
+  display: flex;
+  z-index:1;
+  justify-content: center;
+  margin: 0px 5px;
+}
+
+.homeImage {
+  width: 100%;
+  mask-image: Linear-gradient(to bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  z-index: -1;
+  margin-bottom: -150px;
+  object-fit: contain;
+}
